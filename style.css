@@ -23,7 +23,7 @@ h2#books_corner {
 	border: 4px solid #5C3A1E;   /* dark brown border */
   	border-radius: 4px;
 	
-	background-image: url('images/wood.jpg');
+	background-image: url('images/wood_small.jpg');
   	background-size: cover;
   	background-position: center;
 }
