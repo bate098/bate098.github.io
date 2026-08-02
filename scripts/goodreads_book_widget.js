@@ -1,4 +1,4 @@
-const booksRead = 49; // ← only change this number
+const booksRead = 52; // ← only change this number
 const goal = 75;
 const percent = Math.round((booksRead / goal) * 100);
 
