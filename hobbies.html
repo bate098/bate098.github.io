@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="scripts/league_tracker.js"></script>
+		<script src="scripts/goodreads_book_widget.js" defer></script>
+		<title>Bucket of Bate - Hobbies</title>
+
+		<!--fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet"> 
+	</head>
+    <body>
+        <div class="page">
+            <section class="section">
+                <header class="section-header">
+                    <h2 id="books_corner">BOOKS</h2>
+                </header>
+                <div class="section-content">
+                    <h3>Current Reading</h3>
+                        <p> 	
+                            Reading Matthew G. Lewis' <cite>The Monk</cite>, quite fun so far. Edith Wharton's <cite>The Age of Innocence</cite> has been good too.
+                        </p>
+
+                    <h3>Recently Finished</h3>
+                        <p>
+                            Finished Eric Foner's book on Reconstruction which was very good.
+                        </p>
+
+                <!-- goodread widget?-->
+                    <div id="gr_challenge_progress_body"></div>
+                <!-- Maybe take advantage of Hardcover's API to showcase something here?-->
+                </div>
+            </section>
+            
+            
+            <section class="section">
+                <header class="section-header">
+                    <h2 id="qb_corner">QUIZBOWL</h2>
+                </header>
+                <div class="section-content">
+                    <p>	
+                    NASAT was interesting to play. The question difficulty swung quite a bit in my opinion.
+                </p>
+
+                <h3>Long Fiction Editing Progress</h3>
+                <progress value="18" max="34"></progress>
+
+                <h3>Euro History Editing Progress</h3>
+                <progress value="3" max="28"></progress>
+
+                <h3>World History Editing Progress</h3>
+                <progress value="4" max="28"></progress>
+                
+                <h3>Goals</h3>
+                    <ul>
+                        <li>Edit at least two questions every day to hit end of Sept Goal</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="section">
+                <header class="section-header">
+                    <h2 id="birds_corner">BIRDS</h2>
+                </header>
+                <div class="section-content">
+                    <p>
+                    Helped a local graduate student catch a scarlet tanager up in Bankhead National Forest, very very cool experience.
+                    </p>
+                <!-- Some kind of tracker that calls the ebird API for hotspots that I go to frequently to see what other people have recently spotted?
+                    Some kind of hud for displaying the response information too-->
+                <!-- big step since I will need to set up a server backend if I want to keep this hosted on GitHub Pages-->
+                </div>
+            </section>
+            
+            <section class="section">
+                <header class="section-header">
+                    <h2 id="gaming_corner">GAMING</h2>
+                </header>
+                <div class="section-content">
+                    <h3>League Esports</h3>
+
+                    <p>
+                        Fnatic didn't make playoffs wow. Wonder if MKOI will be able to turn things around.
+                    </p>
+
+                    <h4 id="league_tracker_title">Loading...</h4>
+                    <p id="days-display"></p>
+                </div>
+            </section>
+        
+            <section class="section">
+                <header class="section-header">
+                    <h4 class="contact">Contact</h4>
+                </header>
+                <div class="section-content">
+                    <p class="contact">Personal Email: zhouyumichael@gmail.com</p>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
