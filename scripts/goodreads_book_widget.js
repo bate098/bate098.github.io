@@ -1,6 +1,6 @@
-const booksRead = 61; // ← only change this number
+const booksRead = 77; // ← only change this number
 const goal = 75;
-const percent = Math.round((booksRead / goal) * 100);
+const percent = Math.min(100, Math.round((booksRead / goal) * 100));
 
 document.getElementById('gr_challenge_progress_body').innerHTML = `
   <h3 style="margin: 4px 0 10px; font-weight: normal; text-align: center">
